@@ -1,0 +1,29 @@
+# Automatska klasifikacija proizvoda
+
+Ovaj projekat služi za automatsko određivanje kategorije proizvoda na osnovu njegovog naziva.
+
+## Fajlovi
+
+* `products.csv` – podaci
+* `tvoj_notebook.ipynb` – analiza i rad na modelu
+* `train_model.py` – treniranje i čuvanje modela
+* `predict_category.py` – testiranje modela
+* `model.pkl` – sačuvani model
+
+## Kako se pokreće
+
+Prvo se pokrene:
+
+`train_model.py`
+
+On napravi fajl `model.pkl`.
+
+Zatim se pokrene:
+
+`predict_category.py`
+
+Unese se naziv proizvoda i model predloži kategoriju.
+
+## Zaključak
+
+Model može da koristi naziv proizvoda da predloži njegovu kategoriju. Projekat pokazuje kako mašinsko učenje može da se koristi za automatsku klasifikaciju proizvoda.
